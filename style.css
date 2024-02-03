@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+   --primary-bg-color:#0c0d0f;
+   --secondary-text-color:#ff0040;
+}
+
+@layer base{
+  body{
+    @apply text-white
+  }
+    h1{
+        @apply text-6xl
+    }
+    section{
+        @apply mx-6 mt-16 sm:mx-10 xl:w-[85%] xl:m-auto
+    }
+ 
+}
+
+@layer components{
+
+    .li{
+        @apply hover:text-[#ff0040] transition-colors duration-500 ease-out hover:cursor-pointer px-2 bg-[#07070733]
+    }
+    .btn{
+        @apply px-3 py-1 bg-[#ff0040] rounded-lg hover:bg-white hover:text-[#ff0040]
+    }
+    .card{
+        @apply flex-col text-center space-y-4 bg-[--primary-bg-color] rounded-lg px-2 py-4 hover:shadow-sm hover:shadow-slate-400 hover:scale-105 transition-transform duration-500 ease-out lg:w-[23%] xl:w-[28%]
+    }
+    .font-link{
+        @apply bg-[#ff0040] rounded-[4px] w-7 text-center hover:text-[#ff0040] hover:bg-white transition-colors duration-500
+    }
+ 
+}
+
+.rotate{
+    transform: rotate(90deg);
+}
+#logo{
+    transition:transform 0.3s ease-in ;
+}

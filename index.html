@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/43f5da347e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./script.js"></script>
+    <title>Portfolio</title>
+</head>
+
+<body class="bg-black">
+    <!--? section-1 -->
+    <section
+        class="mt-8 bg-[url('https://images.unsplash.com/photo-1504903271097-d7e7c7f5f7ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80')] bg-center lg:bg-cover lg:h-[80vh] lg:mt-0">
+        <div>
+            <ul class="flex space-y-8 space-x-2 lg:justify-between max-[1023px]:flex-col">
+                <li class="lg:self-end">
+                    <h3 class="text-3xl font-bold xl:text-4xl">Port<span
+                            class="text-[#ff0040] font-[cursive]">folio</span></h3>
+                </li>
+                <div class="lg:hidden" id="ham-btn">
+                    <i class="fa-solid fa-bars fa-lg" id="logo" style="color: #ff0037;"></i>
+                </div>
+                <div
+                    class="space-y-8 lg:space-y-0 lg:space-x-8 xl:space-x-10 max-[1023px]:flex-col max-[1023px]:-translate-x-28 hidden lg:flex rounded-lg links-container">
+                    <li class="li">Home</li>
+                    <li class="li">About</li>
+                    <li class="li">Service</li>
+                    <li class="li">Contact</li>
+                </div>
+                <li><button class="btn li">Suscribe</button></li>
+            </ul>
+        </div>
+        <div class="mt-16 lg:mt-48 xl:mt-80">
+            <div class="flex-col space-y-3">
+                <p class=" font-[cursive] xl:text-xl lg:tracking-widest">Hello ,my name is</p>
+                <h1 class="font-semibold">Altaf <span class="text-[#ff0040]">Husaain</span></h1>
+                <p class="font-[cursive] xl:text-xl lg:tracking-widest">i'am a Fronted Developer.</p>
+                <div>
+                    <input type="email"
+                        class="text-black rounded-lg placeholder:text-slate-600 placeholder: px-3 py-1 my-4 lg:py-[5px] text-left lg:pr-12 xl:pr-20"
+                        placeholder="Enter your email">
+                    <button class="btn lg:relative lg:right-[98px] hover:border-[0.001px]  hover:border-[#ff0040]">Let's
+                        Start</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--? section-2 -->
+    <section
+        class="shadow-sm shadow-slate-400 rounded-lg bg-[--primary-bg-color] flex  flex-col space-y-4 lg:flex-row lg:h-[100vh] xl:h-[80vh] xl:my-10">
+        <div class="overflow-hidden sm:space-y-3 lg:w-4/5">
+            <h1 class="text-5xl text-center lg:text-6xl lg:font-semibold lg:text-right">About Me</h1>
+            <img class="rounded-lg sm:w-1/2 sm:m-auto lg:m-0 lg:w-full max-[1279px]:h-full"
+                src="./IMG_20230323_194639.png" alt="altafimg">
+        </div>
+        <div class="flex-col px-4 pb-3 space-y-3 sm:text-center lg:space-y-9 lg:w-1/2">
+            <h4 class="text-2xl text-center lg:mt-9 xl:mt-16">Developer<span class="text-[#ff0040] font-[cursive]">&
+                    Desinger</span></h4>
+            <p class="text-left">
+                Hello! I'm Altaf, a passionate frontend developer with a keen eye for design and a drive to create
+                outstanding web experiences. With 1 years of experience in the field, I have honed my skills in
+                crafting visually appealing and user-friendly websites and applications.
+
+                I have a strong foundation in HTML, CSS, and JavaScript, and I'm well-versed in popular frontend
+                frameworks like React and Tailwindcss. I thrive on bringing static designs to life, turning them
+                into dynamic and interactive web interfaces that captivate users.
+
+                My approach to frontend development is rooted in the belief that design and functionality should go hand
+                in hand. I pay meticulous attention to detail, ensuring pixel-perfect implementations while also
+                focusing on usability and delivering seamless user experiences. I strive to create websites that not
+                only look stunning but also engage and delight users from the moment they land on a page.
+            </p>
+            <button class="btn">Let's Talk</button>
+        </div>
+    </section>
+
+    <!--? section-3 -->
+    <section class="lg:h-[70vh]">
+        <h1 class="font-semibold text-center xl:pt-10">Our Services</h1>
+        <div
+            class="flex flex-col justify-center space-y-10 lg:flex-row lg:justify-evenly lg:mt-10 xl:justify-around xl:mt-20">
+            <div class="mt-10 card">
+                <i class="fa-solid fa-bars fa-beat-fade fa-xl" style="color: #ff0040;"></i>
+                <p class="font-extrabold">Web Development</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus quae soluta voluptas laborum
+                    nisi porro reiciendis ducimus accusamus culpa maiores?</p>
+                <button class="btn">Read More</button>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-user fa-beat-fade fa-xl" style="color: #ff0037;"></i>
+                <p class="font-extrabold">Web Design</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus quae soluta voluptas laborum
+                    nisi porro reiciendis ducimus accusamus culpa maiores?</p>
+                <button class="btn">Read More</button>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-bell fa-beat-fade fa-xl " style="color: #ff0037;"></i>
+                <p class="font-extrabold">Backend</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus quae soluta voluptas laborum
+                    nisi porro reiciendis ducimus accusamus culpa maiores?</p>
+                <button class="btn">Read More</button>
+            </div>
+
+        </div>
+    </section>
+
+    <!--? section-4 -->
+    <section
+        class="bg-[--primary-bg-color] flex flex-col py-4 space-y-4 justify-center text-center rounded-lg shadow-sm shadow-slate-300">
+        <h3>Let Me Get You a Beautiful Website</h3>
+        <button class="w-1/2 m-auto btn lg:w-1/4">Hire Me</button>
+    </section>
+
+    <!--? section-5 -->
+    <section class="flex flex-col mt-6 space-y-4 text-center">
+        <p class="font-extrabold">Altaf Hussain</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae autem laboriosam odio illo adipisci. Pariatur?
+        </p>
+        <div class="flex justify-center space-x-4">
+            <a href="" class="font-link"> <i class="fa-brands fa-facebook fa-lg icon"></i></a>
+            <a href="" class="font-link"><i class="fa-brands fa-square-instagram fa-lg icon"></i></a>
+            <a href="" class="font-link"><i class="fa-brands fa-github fa-lg icon"></i></a>
+        </div>
+        <p class="text-[4px] text-slate-400">@Made By Altaf Using HTML,TailwindCSS And Javascript</p>
+    </section>
+</body>
+
+</html>
